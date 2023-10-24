@@ -4,7 +4,7 @@ import OoEPhoto from "../../../public/OrderOfTheEngineer.jpg";
 
 const About = () => {
   return (
-    <div>
+    <div className="p-5">
       <div className="font-bold font-sans text-3xl bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent animate-gradient-xy text-right">
         About Me
       </div>

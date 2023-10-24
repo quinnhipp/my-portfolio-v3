@@ -9,7 +9,7 @@ import Education from "./pages/education";
 
 export default function Page() {
   return (
-    <div className="scrollbar-hide">
+    <div>
       <Home />
       <About />
       <WorkExperience />

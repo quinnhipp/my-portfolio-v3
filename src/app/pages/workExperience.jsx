@@ -13,7 +13,7 @@ const WorkExperience = () => {
             Quality Assurance Specialist
           </div>
           <div className="text-sm text-slate-600">October 2023 - Present</div>
-          <ul className="list-disc p-2">
+          <ul className="list-disc p-2 pl-5">
             <li></li>
             <li></li>
             <li></li>
@@ -28,7 +28,7 @@ const WorkExperience = () => {
             Freelance Frontend Developer
           </div>
           <div className="text-sm text-slate-600">June 2023 - August 2023</div>
-          <ul className="list-disc p-2">
+          <ul className="list-disc p-2 pl-5">
             <li>
               Utilize React, TypeScript, and Tailwind CSS for a web application
               for order processing.
@@ -53,7 +53,7 @@ const WorkExperience = () => {
           <div className="text-sm text-slate-600">
             December 2022 - June 2023
           </div>
-          <ul className="list-disc p-2">
+          <ul className="list-disc p-2 pl-5">
             <li>
               AP Computer Science, Computer Science Principles, Algebra II
               Teacher.
@@ -71,7 +71,7 @@ const WorkExperience = () => {
             Software Developer Intern
           </div>
           <div className="text-sm text-slate-600">January 2020 - May 2022</div>
-          <ul className="list-disc p-2">
+          <ul className="list-disc pl-5 p-2">
             <li>Completed multiple project assignments in VB.net.</li>
             <li>
               Learned and worked in an agile environment incorporating JIRA and
