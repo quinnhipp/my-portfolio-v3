@@ -15,7 +15,7 @@ const Home = () => {
         </span>
       </div>
       <div className="flex justify-center">
-        <Image src={gif} className="md:w-1/3" />
+        <Image src={gif} className="md:w-1/3" alt="" />
       </div>
     </div>
   );
