@@ -21,8 +21,8 @@ const Education = () => {
             <li>
               <p>Men&#39;s Ultimate Disc</p>
               <ul className="list-square list-inside">
-                <li>2021 - 2022: President, Captain, Treasurer</li>
-                <li>2019 - 2021: Vice President</li>
+                <li>&#39;21 - &#39;22: President, Captain, Treasurer</li>
+                <li>&#39;19 - &#39;21: Vice President</li>
               </ul>
             </li>
           </ul>

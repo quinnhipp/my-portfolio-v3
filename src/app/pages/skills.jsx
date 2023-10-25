@@ -9,14 +9,14 @@ const Skills = () => {
         </div>
         <div className="flex flex-col gap-6 w-full">
           <Progress
-            color="default"
+            color="warning"
             label="Frontend (JS, HTML, CSS)"
             value={80}
           />
           <Progress color="primary" label="React" value={75} />
           <Progress color="secondary" label="Github" value={95} />
           <Progress color="success" label="C#" value={40} />
-          <Progress color="warning" label="Java" value={65} />
+          <Progress color="default" label="Java" value={65} />
           <Progress color="danger" label="Python" value={35} />
         </div>
       </div>
