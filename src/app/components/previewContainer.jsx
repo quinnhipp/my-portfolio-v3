@@ -5,7 +5,10 @@ const PreviewContainer = ({ items }) => {
   return (
     <div className="flex flex-col md:grid md:grid-cols-3 gap-10">
       {items.map((item) => (
-        <div className="shadow-md shadow-slate-200 rounded-3xl bg-gray-950 relative p-4">
+        <div
+          className="shadow-md shadow-slate-200 rounded-3xl bg-gray-950 relative p-4"
+          key={item.id}
+        >
           <div className="flex justify-center">
             <Image src={item.image} className="w-1/2 h-1/4 rounded-xl" alt="" />
           </div>
