@@ -23,7 +23,7 @@ const Projects = () => {
       title: "Crystal Orchard Website",
       link: "https://the-crystal-orchard.vercel.app/",
       description:
-        "A website that utilizes Nextjs, Typescript, TailwindCSS, and SQLite.",
+        "A website that utilizes Nextjs, Typescript, and TailwindCSS.",
       buttonText: "View Website",
       id: 2,
     },
@@ -41,7 +41,7 @@ const Projects = () => {
       title: "Biohazard Printing Website",
       link: "https://www.biohazardprinting.com/",
       description:
-        "A website that utilizes Nextjs, Typescript, TailwindCSS, and SQLite.",
+        "A website that utilizes Nextjs, Typescript, and TailwindCSS.",
       buttonText: "View Website",
       id: 4,
     },
