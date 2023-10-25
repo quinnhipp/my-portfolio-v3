@@ -19,7 +19,7 @@ const Education = () => {
             <li>GPA: 3.23</li>
             <li>Triangle Fraternity Alumni</li>
             <li>
-              <p>Men's Ultimate Disc</p>
+              <p>Men&#39;s Ultimate Disc</p>
               <ul className="list-square list-inside">
                 <li>2021 - 2022: President, Captain, Treasurer</li>
                 <li>2019 - 2021: Vice President</li>
