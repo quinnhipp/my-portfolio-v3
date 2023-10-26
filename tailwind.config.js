@@ -20,11 +20,24 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
+        "fading-in": "fade 1s linear forwards",
         "gradient-x": "gradient-x 3s ease infinite",
         "gradient-y": "gradient-y 3s ease infinite",
         "gradient-xy": "gradient-xy 3s ease infinite",
       },
       keyframes: {
+        fade: {
+          "0%": {
+            opacity: "0",
+            filter: "blur(5px)",
+            transform: "translateX(-100%)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+            blur: "0px",
+          },
+        },
         "gradient-y": {
           "0%, 100%": {
             "background-size": "400% 400%",

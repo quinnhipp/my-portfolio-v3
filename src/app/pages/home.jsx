@@ -1,6 +1,7 @@
 import Image from "next/image";
 import gif from "../../../public/Quinn_Laptop2.gif";
 import Socials, { DownloadResume } from "../components/socials";
+import RevealOnScroll from "../components/revealOnScroll";
 
 const Home = () => {
   return (

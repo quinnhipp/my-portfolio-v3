@@ -1,4 +1,5 @@
 import { Progress } from "@nextui-org/react";
+import RevealOnScroll from "../components/revealOnScroll";
 
 const Skills = () => {
   return (
@@ -8,16 +9,28 @@ const Skills = () => {
           Skills
         </div>
         <div className="flex flex-col gap-6 w-full">
-          <Progress
-            color="warning"
-            label="Frontend (JS, HTML, CSS)"
-            value={80}
-          />
-          <Progress color="primary" label="React" value={75} />
-          <Progress color="secondary" label="Github" value={95} />
-          <Progress color="success" label="C#" value={40} />
-          <Progress color="default" label="Java" value={65} />
-          <Progress color="danger" label="Python" value={35} />
+          <RevealOnScroll>
+            <Progress
+              color="warning"
+              label="Frontend (JS, HTML, CSS)"
+              value={80}
+            />
+          </RevealOnScroll>
+          <RevealOnScroll>
+            <Progress color="primary" label="React" value={75} />
+          </RevealOnScroll>
+          <RevealOnScroll>
+            <Progress color="secondary" label="Github" value={95} />
+          </RevealOnScroll>
+          <RevealOnScroll>
+            <Progress color="success" label="C#" value={40} />
+          </RevealOnScroll>
+          <RevealOnScroll>
+            <Progress color="default" label="Java" value={65} />
+          </RevealOnScroll>
+          <RevealOnScroll>
+            <Progress color="danger" label="Python" value={35} />
+          </RevealOnScroll>
         </div>
       </div>
     </div>

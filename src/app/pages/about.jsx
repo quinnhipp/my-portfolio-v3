@@ -1,13 +1,16 @@
 import Image from "next/image";
 import gradPhoto from "../../../public/Grad_Photo.jpeg";
 import OoEPhoto from "../../../public/OrderOfTheEngineer.jpg";
+import RevealOnScroll from "../components/revealOnScroll";
 
 const About = () => {
   return (
     <div className="p-5">
-      <div className="font-bold font-sans text-3xl bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent animate-gradient-xy text-right">
-        About Me
-      </div>
+      <RevealOnScroll>
+        <div className="font-bold font-sans text-3xl bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent animate-gradient-xy text-right">
+          About Me
+        </div>
+      </RevealOnScroll>
       <div className="font-sans text-xl">
         <div className="">
           I am a recent graduate of the University of Toledo with a degree in{" "}
@@ -21,10 +24,12 @@ const About = () => {
           .
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-2">
-        <Image src={gradPhoto} className="rounded-3xl" alt="" />
-        <Image src={OoEPhoto} className="rounded-3xl" alt="" />
-      </div>
+      <RevealOnScroll>
+        <div className="grid grid-cols-2 gap-2">
+          <Image src={gradPhoto} className="rounded-3xl" alt="" />
+          <Image src={OoEPhoto} className="rounded-3xl" alt="" />
+        </div>
+      </RevealOnScroll>
     </div>
   );
 };

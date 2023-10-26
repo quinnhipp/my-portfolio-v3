@@ -30,17 +30,18 @@ const WorkExperience = () => {
           <div className="text-sm text-slate-600">June 2023 - August 2023</div>
           <ul className="list-disc p-2 pl-5">
             <li>
-              Utilize React, TypeScript, and Tailwind CSS for a web application
+              Utilized React, TypeScript, and Tailwind CSS for a web application
               for order processing.
             </li>
             <li>
-              Design and develop responsive UIs using various React libraries.
+              Designed and developed responsive UIs using various React
+              libraries.
             </li>
             <li>
-              Collaborate as a team to solve problems while maintaining a
+              Collaborated as a team to solve problems while maintaining a
               cohesive work environment.
             </li>
-            <li>Design data-driven analytical dashboards.</li>
+            <li>Designed data-driven analytical dashboards.</li>
           </ul>
         </div>
         <div>
