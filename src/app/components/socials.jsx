@@ -5,7 +5,7 @@ import {
   faLinkedin,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faFileArrowDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import RevealOnScroll from "./revealOnScroll";
 
 export const DownloadResume = () => {
@@ -20,11 +20,13 @@ export const DownloadResume = () => {
           target="_blank"
           className="hover:bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] rounded-xl p-1"
         >
-          <FontAwesomeIcon
-            icon={faFileArrowDown}
-            style={{ color: "#ffffff" }}
-            size="3x"
-          />
+          <RevealOnScroll>
+            <FontAwesomeIcon
+              icon={faFileArrowDown}
+              style={{ color: "#ffffff" }}
+              size="3x"
+            />
+          </RevealOnScroll>
         </a>
       </div>
     </div>
@@ -32,48 +34,79 @@ export const DownloadResume = () => {
 };
 DownloadResume;
 
+export const ContactMe = () => {
+  return (
+    <div>
+      <div className="font-bold text-lg text-center bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent animate-gradient-xy animate-bounce">
+        Contact Me!
+      </div>
+      <div className="flex gap-x-3 mt-3 md:mt-8 justify-center">
+        <a
+          href="/HippQuinnlan_Resume.pdf"
+          target="_blank"
+          className="hover:bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] rounded-xl p-1"
+        >
+          <RevealOnScroll>
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              style={{ color: "#ffffff" }}
+              size="3x"
+            />
+          </RevealOnScroll>
+        </a>
+      </div>
+    </div>
+  );
+};
+ContactMe;
+
 const Socials = () => {
   return (
-    <div className="flex gap-x-3 mt-3 md:mt-8 justify-center">
-      <RevealOnScroll>
+    <div>
+      <div className="font-bold text-lg text-center bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent animate-gradient-xy animate-bounce">
+        CHECK OUT MY SOCIALS!
+      </div>
+      <div className="flex gap-x-3 mt-3 md:mt-8 justify-center">
         <a
           href="https://www.linkedin.com/in/quinnlanhipp/"
           target="_blank"
           className="hover:bg-[#0077b5] rounded-xl p-1"
         >
-          <FontAwesomeIcon
-            icon={faLinkedin}
-            style={{ color: "#ffffff" }}
-            size="3x"
-          />
+          <RevealOnScroll>
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              style={{ color: "#ffffff" }}
+              size="3x"
+            />
+          </RevealOnScroll>
         </a>
-      </RevealOnScroll>
-      <RevealOnScroll className="delay-200">
         <a
           href="https://github.com/quinnhipp"
           target="_blank"
           className="hover:bg-[#2b3137] rounded-xl p-1"
         >
-          <FontAwesomeIcon
-            icon={faGithub}
-            style={{ color: "#ffffff" }}
-            size="3x"
-          />
+          <RevealOnScroll>
+            <FontAwesomeIcon
+              icon={faGithub}
+              style={{ color: "#ffffff" }}
+              size="3x"
+            />
+          </RevealOnScroll>
         </a>
-      </RevealOnScroll>
-      <RevealOnScroll>
         <a
           href="https://twitter.com/QuinnfortheWin0"
           target="_blank"
-          className="hover:bg-[#22303c] rounded-xl p-1 delay-700"
+          className="hover:bg-[#22303c] rounded-xl p-1"
         >
-          <FontAwesomeIcon
-            icon={faXTwitter}
-            style={{ color: "#ffffff" }}
-            size="3x"
-          />
+          <RevealOnScroll>
+            <FontAwesomeIcon
+              icon={faXTwitter}
+              style={{ color: "#ffffff" }}
+              size="3x"
+            />
+          </RevealOnScroll>
         </a>
-      </RevealOnScroll>
+      </div>
     </div>
   );
 };

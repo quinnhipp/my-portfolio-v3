@@ -1,6 +1,6 @@
 import Image from "next/image";
 import gif from "../../../public/Quinn_Laptop2.gif";
-import Socials, { DownloadResume } from "../components/socials";
+import Socials, { ContactMe, DownloadResume } from "../components/socials";
 import RevealOnScroll from "../components/revealOnScroll";
 
 const Home = () => {
@@ -20,13 +20,9 @@ const Home = () => {
         <Image src={gif} className="md:w-1/3" alt="" />
       </div>
       <div className="mt-16 md:mt-20 flex flex-col md:flex-row justify-center gap-24">
-        <div>
-          <div className="font-bold text-lg text-center bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent animate-gradient-xy animate-bounce">
-            CHECK OUT MY SOCIALS!
-          </div>
-          <Socials />
-        </div>
+        <Socials />
         <DownloadResume />
+        <ContactMe />
       </div>
     </div>
   );
