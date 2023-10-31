@@ -6,13 +6,11 @@ import RevealOnScroll from "../components/revealOnScroll";
 const About = () => {
   return (
     <div className="p-5">
-      <RevealOnScroll>
-        <div className="font-bold font-sans text-3xl bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent animate-gradient-xy text-right">
-          About Me
-        </div>
-      </RevealOnScroll>
+      <div className="font-bold font-sans text-3xl bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent animate-gradient-xy text-right">
+        About Me
+      </div>
       <div className="font-sans text-xl">
-        <div className="">
+        <div className="text-center">
           I am a recent graduate of the University of Toledo with a degree in{" "}
           <span className="bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent animate-gradient-xy">
             Computer Science and Engineering
@@ -24,12 +22,10 @@ const About = () => {
           .
         </div>
       </div>
-      <RevealOnScroll>
-        <div className="grid grid-cols-2 gap-2">
-          <Image src={gradPhoto} className="rounded-3xl" alt="" />
-          <Image src={OoEPhoto} className="rounded-3xl" alt="" />
-        </div>
-      </RevealOnScroll>
+      <div className="grid grid-cols-2 mx-auto gap-2 md:gap-24 md:w-3/4 mt-10">
+        <Image src={gradPhoto} className="rounded-3xl" alt="" />
+        <Image src={OoEPhoto} className="rounded-3xl" alt="" />
+      </div>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Projects = () => {
       image: BitmojiLaptop,
       title: "My CV",
       link: "https://qhipp.dev",
-      description: "Web site created in React to display my portfolio",
+      description: "Website created in React to display my portfolio",
       buttonText: "",
       className: "hide-button",
       isDisabled: true,
@@ -20,10 +20,10 @@ const Projects = () => {
     },
     {
       image: COLogo,
-      title: "Crystal Orchard Website",
+      title: "Crystal Orchard",
       link: "https://the-crystal-orchard.vercel.app/",
       description:
-        "A website that utilizes Nextjs, Typescript, and TailwindCSS.",
+        "A band website to display information about the members, their music, photos, and upcoming gig dates.",
       buttonText: "View Website",
       id: 2,
     },
@@ -41,7 +41,7 @@ const Projects = () => {
       title: "Biohazard Printing Website",
       link: "https://www.biohazardprinting.com/",
       description:
-        "A website that utilizes Nextjs, Typescript, and TailwindCSS.",
+        "A small business website to display testimonials, recent work, contact, and payment information.",
       buttonText: "View Website",
       id: 4,
     },

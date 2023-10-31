@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faFileArrowDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import RevealOnScroll from "./revealOnScroll";
+import Link from "next/link";
 
 export const DownloadResume = () => {
   return (
@@ -34,26 +35,40 @@ export const DownloadResume = () => {
 };
 DownloadResume;
 
+export const ButtonMailto = ({ mailto }) => {
+  return (
+    <Link
+      href="#"
+      onClick={(e) => {
+        window.location.href = mailto;
+        e.preventDefault();
+      }}
+    >
+      <div
+        target="_blank"
+        className="hover:bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] rounded-xl p-1"
+      >
+        <RevealOnScroll>
+          <FontAwesomeIcon
+            icon={faEnvelope}
+            style={{ color: "#ffffff" }}
+            size="3x"
+          />
+        </RevealOnScroll>
+      </div>
+    </Link>
+  );
+};
+ButtonMailto;
+
 export const ContactMe = () => {
   return (
     <div>
       <div className="font-bold text-lg text-center bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent animate-gradient-xy animate-bounce">
-        Contact Me!
+        CONTACT ME!
       </div>
       <div className="flex gap-x-3 mt-3 md:mt-8 justify-center">
-        <a
-          href="/HippQuinnlan_Resume.pdf"
-          target="_blank"
-          className="hover:bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] rounded-xl p-1"
-        >
-          <RevealOnScroll>
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              style={{ color: "#ffffff" }}
-              size="3x"
-            />
-          </RevealOnScroll>
-        </a>
+        <ButtonMailto mailto="mailto:quinnhipp1@gmail.com" />
       </div>
     </div>
   );
