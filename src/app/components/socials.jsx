@@ -108,7 +108,7 @@ const Socials = () => {
             />
           </RevealOnScroll>
         </a>
-        <a
+        {/* <a
           href="https://twitter.com/QuinnfortheWin0"
           target="_blank"
           className="hover:bg-[#22303c] rounded-xl p-1"
@@ -120,7 +120,7 @@ const Socials = () => {
               size="3x"
             />
           </RevealOnScroll>
-        </a>
+        </a> */}
       </div>
     </div>
   );

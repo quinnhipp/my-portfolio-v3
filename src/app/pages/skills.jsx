@@ -14,22 +14,48 @@ const Skills = () => {
               color="warning"
               label="Frontend (JS, HTML, CSS)"
               value={80}
+              showValueLabel={true}
             />
           </RevealOnScroll>
           <RevealOnScroll>
-            <Progress color="primary" label="React" value={75} />
+            <Progress
+              color="primary"
+              label="React"
+              value={75}
+              showValueLabel={true}
+            />
           </RevealOnScroll>
           <RevealOnScroll>
-            <Progress color="secondary" label="Github" value={95} />
+            <Progress
+              color="secondary"
+              label="Github"
+              value={95}
+              showValueLabel={true}
+            />
           </RevealOnScroll>
           <RevealOnScroll>
-            <Progress color="success" label="C#" value={40} />
+            <Progress
+              color="success"
+              label="C#"
+              value={40}
+              showValueLabel={true}
+            />
           </RevealOnScroll>
           <RevealOnScroll>
-            <Progress color="default" label="Java" value={65} />
+            <Progress
+              color="default"
+              label="Java"
+              value={65}
+              showValueLabel={true}
+            />
           </RevealOnScroll>
           <RevealOnScroll>
-            <Progress color="danger" label="Python" value={35} />
+            <Progress
+              color="danger"
+              label="Python"
+              value={35}
+              showValueLabel={true}
+            />
           </RevealOnScroll>
         </div>
       </div>
