@@ -15,10 +15,10 @@ const WorkExperience = () => {
             </div>
             <div className="text-sm text-slate-600">October 2023 - Present</div>
             <ul className="list-disc p-2 pl-5">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Ensure a high quality product by thoroughly testing software updates before they're pushed to production.</li>
+              <li>Implemented black-box and exploratory testing to identify critical bugs.</li>
+              <li>Assist clients with any issues they are having via chats, phones, or emails.</li>
+              <li>Train clients on the different module packages they purchase.</li>  
             </ul>
           </div>
           <div>
