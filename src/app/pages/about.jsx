@@ -1,6 +1,7 @@
 import Image from "next/image";
 import gradPhoto from "../../../public/Grad_Photo.jpeg";
 import OoEPhoto from "../../../public/OrderOfTheEngineer.jpg";
+import headshot from "../../../public/headshot.jpg";
 import RevealOnScroll from "../components/revealOnScroll";
 
 const About = () => {
@@ -24,7 +25,7 @@ const About = () => {
       </div>
       <div className="grid grid-cols-2 mx-auto gap-2 md:gap-24 md:w-3/4 mt-10">
         <Image src={gradPhoto} className="rounded-3xl" alt="" />
-        <Image src={OoEPhoto} className="rounded-3xl" alt="" />
+        <Image src={headshot} className="rounded-3xl" alt="" />
       </div>
     </div>
   );
