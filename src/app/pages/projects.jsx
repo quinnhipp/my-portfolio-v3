@@ -39,7 +39,7 @@ const Projects = () => {
     {
       image: BioLogo,
       title: "Biohazard Printing Website",
-      link: "https://www.biohazardprinting.com/",
+      link: "https://biohazard-printing-quinnhipp.vercel.app/",
       description:
         "A small business website to display testimonials, recent work, contact, and payment information.",
       buttonText: "View Website",

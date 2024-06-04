@@ -24,6 +24,10 @@ const WorkExperience = () => {
                 critical bugs.
               </li>
               <li>
+                Authored comprehensive, user-friendly documentation guides and
+                support materials, enhancing client engagement.
+              </li>
+              <li>
                 Conduct manual testing of the website to discover bugs before
                 they are deployed.
               </li>
